@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotePad by dani1kx</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>NotePad by dani1kx</h1>
+        
+        <div class="controls">
+            <button id="showAll">All Notes</button>
+            <button id="showActive">Active</button>
+            <button id="showArchived">Archived</button>
+        </div>
+        
+        <div class="note-form">
+            <h2>Add New Note</h2>
+            <div class="form-group">
+                <label for="noteTitle">Title</label>
+                <input type="text" id="noteTitle" placeholder="Enter title" required>
+            </div>
+            <div class="form-group">
+                <label for="noteContent">Note Content (Markdown supported)</label>
+                <textarea id="noteContent" placeholder="Enter note content..." required></textarea>
+            </div>
+            <button id="addNote">Add Note</button>
+        </div>
+        
+        <div class="notes-container">
+            <div id="notesList"></div>
+        </div>
+    </div>
+</body>
+</html>
