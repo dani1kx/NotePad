@@ -32,4 +32,4 @@ http://127.0.0.1:5500
 ```
 
 ## 👨‍💻 Author
-Project created and developed by **dani1kx**
+Project created and developed by **[dani1kx](https://github.com/dani1kx)**
